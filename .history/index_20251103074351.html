@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airaide</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="background-container">
+      <!-- Lottie background -->
+      <!-- <dotlottie-wc
+        id="heroLottie"
+        src="https://lottie.host/51f534cd-2cce-4e29-83f9-720d43cf4c48/ouD2ismwlF.lottie"
+        autoplay
+        loop
+        style="
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          transform: scale(1.1);
+          object-fit: cover;
+        "
+      ></dotlottie-wc> -->
+      <video autoplay muted loop playsinline id="bg-video">
+        <source src="assets/edited.mp4" type="video/mp4">
+      </video>
+
+      <section class="container-fluid">
+        <nav class="navbar navbar-expand-lg py-3">
+          <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+              <img src="./assets/icon/Frame 1618868979.svg" alt="Logo" class="img-fluid" style="height: 40px;">
+            </a>
+
+            <!-- Toggler -->
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links + Button (collapsible area) -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav gap-lg-4 text-center mx-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Insights</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Training</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+              </ul>
+
+              <!-- Button inside collapse (visible on mobile) -->
+              <div class="d-lg-none text-center mt-3">
+                <button class="btn nav-button px-4 py-2 border-0 rounded-2">Get in Touch</button>
+              </div>
+            </div>
+
+            <!-- Button outside collapse (visible on desktop) -->
+            <button class="btn nav-button px-4 py-2 border-0 rounded-2 ms-lg-3 d-none d-lg-block">
+              Get in Touch
+            </button>
+          </div>
+        </nav>
+
+    <!-- Hero -->
+    <section class="hero-content text-center m-auto w-75 pt-5">
+      <h1 class="hero-header mt-5">Pioneering the Future of Technology</h1>
+      <span>
+        We deliver innovative solutions in Artificial Intelligence, Robotics, Additive Manufacturing,
+        Cybersecurity, and Innovation Training.
+      </span>
+      <div class="hero-button pt-3">
+        <button class="me-3 border btn border-0 btn-lg nav-button">Start a Project</button>
+        <button class="btn btn-outline-primary btn-lg">Explore Services</button>
+
+        <div class="stats d-flex align-items-center justify-content-center gap-5 mt-3 pt-5">
+          <div class="d-flex flex-column align-items-center">
+            <h3>500+</h3>
+            <span>Projects Delivered</span>
+          </div>
+          <div
+            class="d-flex flex-column align-items-center border border-1 border-top-0 border-bottom-0 border-dark px-5"
+          >
+            <h3>98%</h3>
+            <span>Clients Satisfaction</span>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <h3>50+</h3>
+            <span>Countries Served</span>
+          </div>
+        </div>
+      </div>
+    </section>
+</section>
+
+    </section>
+    <section class="container-custom mx-auto">
+      <div class="w-50 mt-3 pt-2 mt-lg-5 pt-lg-5">
+        <span class=""> Why choose AIRAIDE </span>
+        <h2>Your Trusted Technology Partner</h2>
+      </div>
+      <div class="row mt-4 pt-5">
+        <div class="col-md-6 d-flex flex-column my-3">
+          <h1>01</h1>
+          <h4 class="">Proven Expertise</h4>
+          <span class="regular">
+            A decade of experience delivering complex technology solutions
+            across various industries with measurable results.
+          </span>
+        </div>
+        <div class="col-md-6 d-flex flex-column my-3">
+          <h1>02</h1>
+          <h4 class="">Innovation First</h4>
+          <span class="regular">
+            From strategy and design to implementation and training, we handle
+            every aspect of your digital transformation.
+          </span>
+        </div>
+        <div class="col-md-6 d-flex flex-column my-3">
+          <h1>03</h1>
+          <h4 class="">Global Reach</h4>
+          <span class="regular">
+            We stay ahead of technology trends to provide you with cutting-edge
+            solutions that future-proof your business
+          </span>
+        </div>
+        <div class="col-md-6 d-flex flex-column my-3">
+          <h1>04</h1>
+          <h4 class="">Proven Expertise</h4>
+          <span class="regular">
+            Operating in 50+ countries with a network of experts ready to
+            support your business wherever you are.
+          </span>
+        </div>
+      </div>
+      <div class="row justify-content-between align-items-center border border-2 p-4 rounded">
+        <div class="col-8 d-flex flex-column">
+          <div class="">
+            <h3 class="">Ready to Transform Your Business?</h3>
+            <span class="regular">
+              Let's discuss how our solutions can help you achieve your innovation goals and stay ahead of the competition.
+            </span>
+          </div>
+          <div class="d-flex gap-3">
+            <button class="border btn border-0 nav-button">
+              Schedule a Discovery Call
+            </button>
+            <button class="btn btn-outline-primary">
+              View Case Studies
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <img src="./assets/image1.png" class="img-fluid" alt="" />
+      </div>
+    </section>
+    
+    <div class="about-AIRAIDE">
+      <div class="container-custom">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex flex-column">
+              <div class="">
+                <h6 class="small">About AIRAIDE</h6>
+                <h2>
+                  Your Trusted Technology Partner
+                </h2>
+              </div>
+              <span class="regular">
+                AIRAIDE is a leader in AI, Robotics, Additive Manufacturing, Cybersecurity, and Innovation Training. Founded by veterans, we empower organizations with tools and training to thrive in a digital world. Our global team of 200+ experts delivers solutions that drive results across 50+ countries.
+              </span>
+              <div class="row">
+                .col
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script
+    src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js"
+    type="module"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+</html>
