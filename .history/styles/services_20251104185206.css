@@ -420,7 +420,7 @@
 /* FAQ Section */
 .faq-section {
   padding: 64px 0;
-  padding-bottom: 0;
+  padding-bottom:
 }
 
 .faq-list {
@@ -475,8 +475,6 @@
 /* Footer CTA Section */
 .footer-cta-section {
   padding: 64px 0;
-  padding-bottom: 0px;
-  padding-top: 0px;
 }
 
 .cta-card {
@@ -538,7 +536,6 @@
 /* Contact Info Section */
 .contact-info-section {
   padding: 48px 0;
-  padding-top: 0px;
 }
 
 .contact-item {
@@ -634,7 +631,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #AEAEC2 !important;
+  color: var(--neutral-400);
   text-decoration: none;
 }
 
