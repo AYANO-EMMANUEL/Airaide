@@ -87,9 +87,9 @@
 }
 
 /* Hero Section */
-/* .hero-services {
+.hero-services {
   padding: 64px 0;
-} */
+}
 
 .hero-badge {
   background: var(--neutral-50);
