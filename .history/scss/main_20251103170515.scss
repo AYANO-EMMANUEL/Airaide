@@ -1,0 +1,12 @@
+// main.scss
+
+// 1. Import variable overrides before Bootstrap
+@import "variables";
+
+// 2. Import Bootstrap core
+@import "bootstrap";
+
+// 3. Import your extended utilities (the one I gave)
+@import "custom-utilities";
+
+// (optional) add more custom component styles here

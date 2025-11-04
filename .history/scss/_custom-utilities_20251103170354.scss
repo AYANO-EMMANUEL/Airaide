@@ -1,0 +1,86 @@
+// =========================================================
+//  🔧 Custom Utility System
+//  Using variables from :root
+// =========================================================
+
+// Import Google Font (Optional)
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+
+// =========================================================
+//  Spacing Utilities (Margin + Padding)
+// =========================================================
+
+@for $i from 0 through 13 {
+  .m-#{$i} { margin: var(--spacing-#{$i}) !important; }
+  .mt-#{$i} { margin-top: var(--spacing-#{$i}) !important; }
+  .mb-#{$i} { margin-bottom: var(--spacing-#{$i}) !important; }
+  .ml-#{$i} { margin-left: var(--spacing-#{$i}) !important; }
+  .mr-#{$i} { margin-right: var(--spacing-#{$i}) !important; }
+
+  .p-#{$i} { padding: var(--spacing-#{$i}) !important; }
+  .pt-#{$i} { padding-top: var(--spacing-#{$i}) !important; }
+  .pb-#{$i} { padding-bottom: var(--spacing-#{$i}) !important; }
+  .pl-#{$i} { padding-left: var(--spacing-#{$i}) !important; }
+  .pr-#{$i} { padding-right: var(--spacing-#{$i}) !important; }
+}
+
+// =========================================================
+//  Border Radius Utilities
+// =========================================================
+
+@for $i from 0 through 6 {
+  .radius-#{$i} { border-radius: var(--radius-#{$i}) !important; }
+}
+
+// =========================================================
+//  Color Utilities (Background + Text)
+// =========================================================
+
+$color-categories: primary, secondary-1, secondary-2, success, warning, error, info, neutral;
+
+@each $cat in $color-categories {
+  @for $i from 50 through 900 by 50 {
+    .bg-#{$cat}-#{$i} { background-color: var(--#{$cat}-#{$i}) !important; }
+    .text-#{$cat}-#{$i} { color: var(--#{$cat}-#{$i}) !important; }
+    .border-#{$cat}-#{$i} { border-color: var(--#{$cat}-#{$i}) !important; }
+  }
+}
+
+// =========================================================
+//  Shadow Utilities
+// =========================================================
+
+@for $i from 0 through 5 {
+  .shadow-#{$i} { box-shadow: var(--shadow-#{$i}) !important; }
+}
+
+// =========================================================
+//  Background and Text Colors (Basic)
+// =========================================================
+
+.bg-white { background-color: var(--color-white) !important; }
+.bg-black { background-color: var(--color-black) !important; }
+.text-white { color: var(--color-white) !important; }
+.text-black { color: var(--color-black) !important; }
+
+// =========================================================
+//  Responsive Breakpoints (sm, md, lg, xl)
+// =========================================================
+
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+@each $bp, $size in $breakpoints {
+  @media (min-width: #{$size}) {
+    @for $i from 0 through 13 {
+      .m-#{$bp}-#{$i} { margin: var(--spacing-#{$i}) !important; }
+      .p-#{$bp}-#{$i} { padding: var(--spacing-#{$i}) !important; }
+    }
+  }
+}
