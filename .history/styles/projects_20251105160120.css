@@ -510,7 +510,7 @@
   font-size: 12px;
   line-height: 16px;
   /* color: var(--neutral-400); */
-  color: #AEAEC2 !important;
+  color: #AEAEC2 ;
   text-decoration: none;
 }
 

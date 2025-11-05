@@ -343,9 +343,9 @@
 }
 
 /* Footer CTA Section */
-/* .footer-cta-section {
+.footer-cta-section {
   padding: 64px 0;
-} */
+}
 
 .cta-card {
   border: 1px solid var(--neutral-300);
@@ -509,8 +509,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  /* color: var(--neutral-400); */
-  color: #AEAEC2 !important;
+  color: var(--neutral-400);
   text-decoration: none;
 }
 
@@ -605,10 +604,10 @@
     font-size: 28px;
   }
 
-  /* .case-studies-section,
+  .case-studies-section,
   .footer-cta-section {
     padding: 48px 0;
-  } */
+  }
 
   .section-title {
     font-size: 28px;

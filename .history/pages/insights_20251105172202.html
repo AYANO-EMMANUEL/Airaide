@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insights - Airaide</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../styles/insights.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar-insights sticky-top">
+      <div class="container-custom navbar-container">
+        <a class="navbar-brand-insights" href="../index.html">
+          <img src="../assets/icon/Frame 1618868979.png" alt="Logo" class="logo-img" />
+        </a>
+
+        <div class="nav-menu">
+          <a href="services.html" class="nav-link-insights">Services</a>
+          <a href="projects.html" class="nav-link-insights">Projects</a>
+          <a href="insights.html" class="nav-link-insights active">Insights</a>
+          <a href="trainings.html" class="nav-link-insights">Trainings</a>
+          <a href="about.html" class="nav-link-insights">About us</a>
+        </div>
+
+        <a href="contact.html" class="btn btn-get-in-touch">Get in Touch</a>
+
+        <button class="navbar-toggler-mobile" type="button" id="mobileMenuToggle">
+          <img src="https://www.figma.com/api/mcp/asset/86ccc145-414f-4418-b30c-6cbb1cb1ed94" alt="Menu" class="menu-icon" />
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="services.html" class="mobile-nav-link">Services</a>
+        <a href="projects.html" class="mobile-nav-link">Projects</a>
+        <a href="insights.html" class="mobile-nav-link active">Insights</a>
+        <a href="trainings.html" class="mobile-nav-link">Trainings</a>
+        <a href="about.html" class="mobile-nav-link">About us</a>
+        <a href="contact.html" class="btn btn-get-in-touch-mobile">Get in Touch</a>
+      </div>
+    </nav>
+
+    <!-- Filter Buttons (Sticky) -->
+    <!-- <div class="filter-bar sticky-filter">
+    </div> -->
+
+    <!-- Hero Section -->
+    <section class="hero-insights">
+      <div class="hero-background">
+        <img src="https://www.figma.com/api/mcp/asset/b37ba078-6710-41a9-8557-7ad9cb3f59ca" alt="Hero Background" class="hero-bg-image" />
+        <div class="hero-gradient"></div>
+      </div>
+      <div class="hero-ellipses">
+        <img src="https://www.figma.com/api/mcp/asset/a586e577-388a-4376-a093-8016e8ae66a6" alt="Background Ellipses" />
+      </div>
+      <div class="container-custom">
+        <div class="hero-content">
+          <h1 class="hero-title">Insights, Ideas & Innovations Shaping the Future</h1>
+          <p class="hero-description">
+            Get expert analyses and tech trends from Airaide. Our insights connect emerging technologies with real-world AI, Robotics, and Digital Transformation.
+          </p>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-hero-primary">Read Articles <img src="https://www.figma.com/api/mcp/asset/749c4634-088d-4b43-97ff-8d0d55c42e01" alt="Arrow" class="btn-icon" /></a>
+            <a href="#" class="btn btn-hero-secondary">Subscribe for Updates <img src="https://www.figma.com/api/mcp/asset/e67e4a96-f532-4fd1-ab35-9aa9d50a3487" alt="Arrow" class="btn-icon" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Editor's Pick Section -->
+    <section class="editors-pick-section">
+      <div class="container-custom">
+        <div class="editors-pick-container">
+          <div class="editors-pick-content">
+            <div class="editor-badge">
+              <img src="https://www.figma.com/api/mcp/asset/f5ce054a-6859-451f-9735-e1704e4ec11c" alt="Icon" class="badge-icon" />
+              <span class="badge-text">Editor's Pick</span>
+            </div>
+            <h2 class="editor-title">How AI and Robotics Are Reshaping the Manufacturing Economy</h2>
+            <p class="editor-description">
+              Smart factories are driving industrial innovation in Africa. AI and robotics transform manufacturing, enhancing efficiency and creating skilled job opportunities.
+            </p>
+            <div class="editor-meta">
+              <div class="editor-author-info">
+                <img src="https://www.figma.com/api/mcp/asset/4fc528fe-ab43-482a-a856-8a57be02cfa6" alt="Author" class="author-icon" />
+                <span class="author-name">Dr. Lara Adeyemi</span>
+                <span class="author-role">• Lead Data Scientist, Airaide</span>
+              </div>
+              <div class="editor-date">
+                <img src="https://www.figma.com/api/mcp/asset/1e10bf7a-67d3-454e-b291-54516ff49fac" alt="Date" class="meta-icon" />
+                <span>January 15, 2025</span>
+              </div>
+              <div class="editor-read-time">
+                <img src="https://www.figma.com/api/mcp/asset/4f83c889-c3b7-4a4b-998b-4d9797235f2b" alt="Time" class="meta-icon" />
+                <span>8 min read</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-editor-read">Read Full Article <img src="https://www.figma.com/api/mcp/asset/258d85a6-871d-4476-b505-439d51f89eec" alt="Arrow" class="btn-icon" /></a>
+          </div>
+          <div class="editors-pick-image">
+            <img src="https://www.figma.com/api/mcp/asset/2aae596b-691a-4eff-af75-e2f30952dbae" alt="Editor's Pick" class="editor-image" />
+            <div class="editor-image-badge">Artificial Intelligence</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Insights Section -->
+    <section class="latest-insights-section">
+      <div class="container-custom">
+        <div class="section-header">
+          <h2 class="section-title">Latest Insights</h2>
+          <p class="section-subtitle">9 articles found</p>
+        </div>
+        <div class="insights-grid">
+          <!-- Article 1 -->
+          <article class="insight-card" data-category="ai">
+            <div class="card-image">
+              <img src="https://www.figma.com/api/mcp/asset/8cf6e743-8c53-4a03-82b2-56c3d34ace0c" alt="Article" />
+              <div class="image-overlay"></div>
+            </div>
+            <div class="card-content">
+              <div class="card-badge">Artificial Intelligence</div>
+              <h3 class="card-title">Building Trust in AI Systems: The Role of Ethical Design</h3>
+              <p class="card-description">
+                Exploring the principles and practices that ensure AI systems are transparent, fair, and accountable in real-world applications.
+              </p>
+              <div class="card-footer">
+                <div class="card-author-info">
+                  <span class="author-name-small">Kwame Mensah</span>
+                  <img src="https://www.figma.com/api/mcp/asset/cf14bbef-c70c-4141-8450-f0596daf84cf" alt="Dot" class="dot-separator" />
+                  <div class="read-time">
+                    <img src="https://www.figma.com/api/mcp/asset/d89ef1b2-32fe-4f15-887e-d38f0486aabf" alt="Clock" class="time-icon" />
+                    <span>6 min read</span>
+                  </div>
+                </div>
+                <a href="#" class="card-read-link">Read <img src="https://www.figma.com/api/mcp/asset/02eff9c2-6e9b-49aa-9fef-392c6ba5eb66" alt="Arrow" class="link-icon" /></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="insight-card" data-category="digital">
+            <div class="card-image">
+              <img src="https://www.figma.com/api/mcp/asset/05a06ad0-f8fd-46af-8405-5d8aacc99281" alt="Article" />
+              <div class="image-overlay image-overlay-yellow"></div>
+            </div>
+            <div class="card-content">
+              <div class="card-badge">Digital Economy</div>
+              <h3 class="card-title">Digital Twins and the Future of Predictive Maintenance</h3>
+              <p class="card-description">
+                How virtual replicas of physical assets are revolutionizing equipment monitoring and reducing downtime in industrial settings.
+              </p>
+              <div class="card-footer">
+                <div class="card-author-info">
+                  <span class="author-name-small">Sarah Okonkwo</span>
+                  <img src="https://www.figma.com/api/mcp/asset/cf14bbef-c70c-4141-8450-f0596daf84cf" alt="Dot" class="dot-separator" />
+                  <div class="read-time">
+                    <img src="https://www.figma.com/api/mcp/asset/d89ef1b2-32fe-4f15-887e-d38f0486aabf" alt="Clock" class="time-icon" />
+                    <span>7 min read</span>
+                  </div>
+                </div>
+                <a href="#" class="card-read-link">Read <img src="https://www.figma.com/api/mcp/asset/02eff9c2-6e9b-49aa-9fef-392c6ba5eb66" alt="Arrow" class="link-icon" /></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="insight-card" data-category="cybersecurity">
+            <div class="card-image">
+              <img src="https://www.figma.com/api/mcp/asset/f038add2-8618-44a9-89f8-60b99c52e3fa" alt="Article" />
+              <div class="image-overlay image-overlay-cyan"></div>
+            </div>
+            <div class="card-content">
+              <div class="card-badge">Cybersecurity</div>
+              <h3 class="card-title">Cybersecurity in the Age of Autonomous Systems</h3>
+              <p class="card-description">
+                Addressing the unique security challenges posed by AI-powered systems and developing robust defense strategies.
+              </p>
+              <div class="card-footer">
+                <div class="card-author-info">
+                  <span class="author-name-small">Dr. Ahmed Hassan</span>
+                  <img src="https://www.figma.com/api/mcp/asset/cf14bbef-c70c-4141-8450-f0596daf84cf" alt="Dot" class="dot-separator" />
+                  <div class="read-time">
+                    <img src="https://www.figma.com/api/mcp/asset/d89ef1b2-32fe-4f15-887e-d38f0486aabf" alt="Clock" class="time-icon" />
+                    <span>5 min read</span>
+                  </div>
+                </div>
+                <a href="#" class="card-read-link">Read <img src="https://www.figma.com/api/mcp/asset/02eff9c2-6e9b-49aa-9fef-392c6ba5eb66" alt="Arrow" class="link-icon" /></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 4 -->
+          <article class="insight-card" data-category="manufacturing">
+            <div class="card-image">
+              <img src="https://www.figma.com/api/mcp/asset/7ff9ade8-feb3-40c1-84ec-f55b67bdc05e" alt="Article" />
+              <div class="image-overlay image-overlay-cyan"></div>
+            </div>
+            <div class="card-content">
+              <div class="card-badge">Additive Manufacturing</div>
+              <h3 class="card-title">Building Trust in AI Systems: The Role of Ethical Design</h3>
+              <p class="card-description">
+                Exploring the principles and practices that ensure AI systems are transparent, fair, and accountable in real-world applications.
+              </p>
+              <div class="card-footer">
+                <div class="card-author-info">
+                  <span class="author-name-small">Kwame Mensah</span>
+                  <img src="https://www.figma.com/api/mcp/asset/cf14bbef-c70c-4141-8450-f0596daf84cf" alt="Dot" class="dot-separator" />
+                  <div class="read-time">
+                    <img src="https://www.figma.com/api/mcp/asset/d89ef1b2-32fe-4f15-887e-d38f0486aabf" alt="Clock" class="time-icon" />
+                    <span>6 min read</span>
+                  </div>
+                </div>
+                <a href="#" class="card-read-link">Read <img src="https://www.figma.com/api/mcp/asset/02eff9c2-6e9b-49aa-9fef-392c6ba5eb66" alt="Arrow" class="link-icon" /></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 5 -->
+          <article class="insight-card" data-category="robotics">
+            <div class="card-image">
+              <img src="https://www.figma.com/api/mcp/asset/8930487e-0b91-4b66-84c3-f4d2f3cc59f2" alt="Article" />
+              <div class="image-overlay"></div>
+            </div>
+            <div class="card-content">
+              <div class="card-badge">Robotics</div>
+              <h3 class="card-title">Building Trust in AI Systems: The Role of Ethical Design</h3>
+              <p class="card-description">
+                Exploring the principles and practices that ensure AI systems are transparent, fair, and accountable in real-world applications.
+              </p>
+              <div class="card-footer">
+                <div class="card-author-info">
+                  <span class="author-name-small">Kwame Mensah</span>
+                  <img src="https://www.figma.com/api/mcp/asset/cf14bbef-c70c-4141-8450-f0596daf84cf" alt="Dot" class="dot-separator" />
+                  <div class="read-time">
+                    <img src="https://www.figma.com/api/mcp/asset/d89ef1b2-32fe-4f15-887e-d38f0486aabf" alt="Clock" class="time-icon" />
+                    <span>6 min read</span>
+                  </div>
+                </div>
+                <a href="#" class="card-read-link">Read <img src="https://www.figma.com/api/mcp/asset/02eff9c2-6e9b-49aa-9fef-392c6ba5eb66" alt="Arrow" class="link-icon" /></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 6 -->
+          <article class="insight-card" data-category="innovation">
+            <div class="card-image">
+              <img src="https://www.figma.com/api/mcp/asset/05829b98-65ab-4cce-9dec-b4a4b2a6c0fb" alt="Article" />
+              <div class="image-overlay image-overlay-yellow"></div>
+            </div>
+            <div class="card-content">
+              <div class="card-badge">Innovation</div>
+              <h3 class="card-title">Building Trust in AI Systems: The Role of Ethical Design</h3>
+              <p class="card-description">
+                Exploring the principles and practices that ensure AI systems are transparent, fair, and accountable in real-world applications.
+              </p>
+              <div class="card-footer">
+                <div class="card-author-info">
+                  <span class="author-name-small">Kwame Mensah</span>
+                  <img src="https://www.figma.com/api/mcp/asset/cf14bbef-c70c-4141-8450-f0596daf84cf" alt="Dot" class="dot-separator" />
+                  <div class="read-time">
+                    <img src="https://www.figma.com/api/mcp/asset/d89ef1b2-32fe-4f15-887e-d38f0486aabf" alt="Clock" class="time-icon" />
+                    <span>6 min read</span>
+                  </div>
+                </div>
+                <a href="#" class="card-read-link">Read <img src="https://www.figma.com/api/mcp/asset/02eff9c2-6e9b-49aa-9fef-392c6ba5eb66" alt="Arrow" class="link-icon" /></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+      <div class="container-custom">
+        <div class="newsletter-content">
+          <h2 class="newsletter-title">Join Our Innovation Circle</h2>
+          <p class="newsletter-description">
+            Get monthly updates on insights, reports, and events from Airaide's R&D team. Stay ahead with exclusive content delivered to your inbox.
+          </p>
+          <div class="newsletter-form">
+            <div class="newsletter-input-wrapper">
+              <img src="https://www.figma.com/api/mcp/asset/471d80aa-c47c-4f1c-9697-c897f219f759" alt="Email" class="input-icon" />
+              <input type="email" placeholder="Enter your email address" class="newsletter-input" />
+            </div>
+            <button class="btn btn-newsletter-subscribe">
+              Subscribe <img src="https://www.figma.com/api/mcp/asset/fe035065-c83e-409b-87fa-90a66428102c" alt="Arrow" class="btn-icon" />
+            </button>
+          </div>
+          <p class="newsletter-disclaimer">We respect your privacy. Unsubscribe at any time.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer CTA Section -->
+    <section class="footer-cta-section">
+      <div class="container-custom">
+        <div class="cta-header">
+          <h2 class="cta-title">Ready to Build the Future?</h2>
+          <p class="cta-description">Let's transform your vision into reality with cutting-edge technology solutions.</p>
+        </div>
+        <div class="cta-cards-container">
+          <div class="cta-card">
+            <div class="cta-icon-container cta-icon-primary">
+              <img src="https://www.figma.com/api/mcp/asset/bea19910-3205-43d1-8796-cda8041ef459" alt="Icon" class="cta-icon" />
+            </div>
+            <div class="cta-content">
+              <h3 class="cta-card-title">Book a Consultation</h3>
+              <p class="cta-card-description">Schedule a free 30-minute consultation with our experts.</p>
+            </div>
+            <button class="btn btn-cta-link">Schedule Now <img src="https://www.figma.com/api/mcp/asset/007a4456-aad5-424b-a57b-7b19ae508078" alt="Arrow" class="btn-icon" /></button>
+          </div>
+          <div class="cta-card">
+            <div class="cta-icon-container cta-icon-secondary1">
+              <img src="https://www.figma.com/api/mcp/asset/bd16e790-d8bc-4d5f-b3b5-4b84b5fd5353" alt="Icon" class="cta-icon" />
+            </div>
+            <div class="cta-content">
+              <h3 class="cta-card-title">Request a Demo</h3>
+              <p class="cta-card-description">See our solutions in action with a personalized demo.</p>
+            </div>
+            <button class="btn btn-cta-link btn-cta-secondary1">Get Demo <img src="https://www.figma.com/api/mcp/asset/1288f2c7-fe19-4d65-b5e1-9cba8d142142" alt="Arrow" class="btn-icon" /></button>
+          </div>
+          <div class="cta-card">
+            <div class="cta-icon-container cta-icon-secondary2">
+              <img src="https://www.figma.com/api/mcp/asset/78476eb3-8aca-4c5a-beea-cff2f315c60c" alt="Icon" class="cta-icon" />
+            </div>
+            <div class="cta-content">
+              <h3 class="cta-card-title">Get a Proposal</h3>
+              <p class="cta-card-description">Receive a detailed proposal tailored to your needs.</p>
+            </div>
+            <button class="btn btn-cta-link btn-cta-secondary2">Request Proposal <img src="https://www.figma.com/api/mcp/asset/1bcfd799-c2c6-4884-a073-e5ce91c049f4" alt="Arrow" class="btn-icon" /></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section">
+      <div class="container-custom">
+        <div class="contact-info-container">
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <img src="https://www.figma.com/api/mcp/asset/676441d4-8edf-4567-8172-baadd221092c" alt="Email" />
+            </div>
+            <div class="contact-text">
+              <p class="contact-label">Email</p>
+              <p class="contact-value">info@airaide.com</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <img src="https://www.figma.com/api/mcp/asset/b8047726-d2d4-4df9-a915-2ac87747d630" alt="Phone" />
+            </div>
+            <div class="contact-text">
+              <p class="contact-label">Phone</p>
+              <p class="contact-value">(+234) 803 601 4972</p>
+            </div>
+          </div>
+          <div class="contact-info-item contact-info-item-full">
+            <div class="contact-icon">
+              <img src="https://www.figma.com/api/mcp/asset/409c241a-52e5-42bd-b373-f0808f315548" alt="Location" />
+            </div>
+            <div class="contact-text">
+              <p class="contact-label">Headquarters</p>
+              <p class="contact-value">29, Aderemi Adeleye Street GRA, Ilorin, Kwara State, Nigeria.</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <img src="https://www.figma.com/api/mcp/asset/f16fa7ce-7176-4c5a-9a1b-e0c24bca4cdc" alt="Clock" />
+            </div>
+            <div class="contact-text">
+              <p class="contact-label">Business Hours</p>
+              <p class="contact-value">Mon-Fri, 7AM - 5PM WAT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-insights">
+      <div class="container-custom">
+        <div class="footer-container">
+          <div class="footer-logo-section">
+            <div class="footer-logo-container">
+              <img src="https://www.figma.com/api/mcp/asset/780cec89-3486-4992-9072-39fc349daa6c" alt="Logo" class="footer-logo" />
+            </div>
+            <p class="footer-description">
+              Pioneering the future of technology with innovative solutions in AI, Robotics, Additive Manufacturing, Cybersecurity, and Training.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"><img src="https://www.figma.com/api/mcp/asset/0007f3d8-3850-4856-8c25-b38b1d779f02" alt="Social" /></a>
+              <a href="#" class="social-link"><img src="https://www.figma.com/api/mcp/asset/c6ea3617-034d-4e28-b37a-c201da0e163d" alt="Social" /></a>
+              <a href="#" class="social-link"><img src="https://www.figma.com/api/mcp/asset/dc7be124-b77d-4b12-b345-935fb80031f1" alt="Social" /></a>
+              <a href="#" class="social-link"><img src="https://www.figma.com/api/mcp/asset/a8786617-886e-40fb-b792-c97dfb7d0f2f" alt="Social" /></a>
+            </div>
+          </div>
+          <div class="footer-links-container">
+            <div class="footer-links-row">
+              <div class="footer-links-column">
+                <h5 class="footer-heading">Services</h5>
+                <ul class="footer-links">
+                  <li><a href="#">Artificial Intelligence</a></li>
+                  <li><a href="#">Robotics</a></li>
+                  <li><a href="#">Cybersecurity</a></li>
+                  <li><a href="#">Additive Manufacturing</a></li>
+                  <li><a href="#">View All Services</a></li>
+                </ul>
+              </div>
+              <div class="footer-links-column">
+                <h5 class="footer-heading">Company</h5>
+                <ul class="footer-links">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="insights.html">Insights</a></li>
+                  <li><a href="trainings.html">Trainings</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-links-row">
+              <div class="footer-links-column">
+                <h5 class="footer-heading">Resources</h5>
+                <ul class="footer-links">
+                  <li><a href="#">Case Studies</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Training Programs</a></li>
+                  <li><a href="#">Documentation</a></li>
+                  <li><a href="#">FAQs</a></li>
+                </ul>
+              </div>
+              <div class="footer-links-column">
+                <h5 class="footer-heading">Legal</h5>
+                <ul class="footer-links">
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Cookie Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-copyright-container">
+          <p class="footer-copyright">© 2025 AiRaide - All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../scripts/insights.js"></script>
+  </body>
+</html>
+
