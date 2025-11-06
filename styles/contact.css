@@ -8,10 +8,6 @@
   padding: 0;
 }
 
-.navbar-contact .container-custom {
-  padding: 24px 0;
-}
-
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -49,7 +45,7 @@
   font-weight: 600;
   font-size: 14px;
   transition: all 0.3s;
-  display: none;
+  display: none !important;
 }
 
 .btn-get-in-touch:hover {
@@ -90,6 +86,10 @@
   border-bottom: 1px solid #f5f5f7;
 }
 
+.mobile-nav-link.active {
+  color: #320198;
+}
+
 .btn-get-in-touch-mobile {
   background: #ffb700;
   color: #320198;
@@ -97,8 +97,55 @@
   padding: 12px 16px;
   border-radius: 8px;
   font-weight: 600;
+  font-size: 14px;
   width: 100%;
   margin-top: 12px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+/* Mobile Responsive - Ensure desktop button is hidden */
+@media (max-width: 991px) {
+  .btn-get-in-touch {
+    display: none !important;
+  }
+  
+  .btn-get-in-touch-mobile {
+    display: block;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+}
+
+/* Desktop Responsive */
+@media (min-width: 992px) {
+  .navbar-container {
+    padding: 24px 0;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 24px;
+  }
+
+  .btn-get-in-touch {
+    display: block !important;
+  }
+  
+  .btn-get-in-touch-mobile {
+    display: none !important;
+  }
+
+  .navbar-toggler-mobile {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: none !important;
+  }
 }
 
 /* Contact Section */
