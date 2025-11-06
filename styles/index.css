@@ -312,19 +312,20 @@ h6 {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .stats {
-    flex-direction: column !important;
+    flex-direction: row !important;
     gap: var(--spacing-4) !important;
+    flex-wrap: nowrap !important;
   }
 
   .stats .border {
-    border-left: none !important;
-    border-right: none !important;
-    border-top: 1px solid var(--neutral-300) !important;
-    border-bottom: 1px solid var(--neutral-300) !important;
-    padding-top: var(--spacing-4) !important;
-    padding-bottom: var(--spacing-4) !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    border-left: 1px solid var(--neutral-300) !important;
+    border-right: 1px solid var(--neutral-300) !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: var(--spacing-4) !important;
+    padding-right: var(--spacing-4) !important;
   }
 
   .hero-content {
