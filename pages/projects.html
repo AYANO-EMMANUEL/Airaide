@@ -17,12 +17,16 @@
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar-projects sticky-top">
-      <div class="container-custom d-flex justify-content-between align-items-center py-4">
+      <div class="container-custom navbar-container">
         <a class="navbar-brand-projects" href="../index.html">
-          <img src="../assets/icon/Frame 1618868979.svg" alt="Logo" class="logo-img" />
+          <img
+            src="../assets/icon/Frame 1618868979.png"
+            alt="Logo"
+            class="logo-img"
+          />
         </a>
 
-        <div class="nav-menu d-none d-lg-flex gap-4">
+        <div class="nav-menu">
           <a href="services.html" class="nav-link-projects">Services</a>
           <a href="projects.html" class="nav-link-projects active">Projects</a>
           <a href="insights.html" class="nav-link-projects">Insights</a>
@@ -30,11 +34,31 @@
           <a href="about.html" class="nav-link-projects">About us</a>
         </div>
 
-        <a href="contact.html" class="btn btn-get-in-touch d-none d-lg-block">Get in Touch</a>
+        <a href="contact.html" class="btn btn-get-in-touch">Get in Touch</a>
 
-        <button class="navbar-toggler-mobile d-lg-none" type="button">
-          <span class="navbar-toggler-icon-mobile"></span>
+        <button
+          class="navbar-toggler-mobile"
+          type="button"
+          id="mobileMenuToggle"
+        >
+          <img
+            src="https://www.figma.com/api/mcp/asset/86ccc145-414f-4418-b30c-6cbb1cb1ed94"
+            alt="Menu"
+            class="menu-icon"
+          />
         </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="container-custom text-center mobile-menu" id="mobileMenu">
+        <a href="services.html" class="mobile-nav-link">Services</a>
+        <a href="projects.html" class="mobile-nav-link active">Projects</a>
+        <a href="insights.html" class="mobile-nav-link">Insights</a>
+        <a href="trainings.html" class="mobile-nav-link">Trainings</a>
+        <a href="about.html" class="mobile-nav-link">About us</a>
+        <a href="contact.html" class="btn btn-get-in-touch-mobile"
+          >Get in Touch</a
+        >
       </div>
     </nav>
 
