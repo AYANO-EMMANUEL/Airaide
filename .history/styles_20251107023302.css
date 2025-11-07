@@ -144,21 +144,12 @@ nav {
 
     @media (max-width: 1024px) {
       grid-column: span 2;
-      gap: var(--spacing-1);
+      gap: var(--spacing-4);
     }
 
     @media (max-width: 768px) {
       grid-column: span 1;
     }
-  }
-
-  .service-intro-card {
-    background-color: var(--color-white);
-    /* border-radius: var(--radius-3);
-    box-shadow: var(--shadow-2); */
-    padding: var(--spacing-6);
-    transition: all 0.3s ease;
-    height: 100%;
   }
 
   /* Service cards */

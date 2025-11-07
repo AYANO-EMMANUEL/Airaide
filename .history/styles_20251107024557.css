@@ -152,13 +152,8 @@ nav {
     }
   }
 
-  .service-intro-card {
-    background-color: var(--color-white);
-    /* border-radius: var(--radius-3);
-    box-shadow: var(--shadow-2); */
-    padding: var(--spacing-6);
-    transition: all 0.3s ease;
-    height: 100%;
+  .service-int {
+    
   }
 
   /* Service cards */
