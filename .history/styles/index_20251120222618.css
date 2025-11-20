@@ -175,7 +175,7 @@ h1 {
 h2 {
   font-family: var(--font-primary);
   font-weight: 600 !important; /* Semi Bold */
-  font-size: clamp(50px, 5vw, 60px) !important;
+  font-size: clamp(60px, 5vw, 68px) !important;
   line-height: 1.15 !important;
 }
 
@@ -196,7 +196,7 @@ h4 {
 h5 {
   font-family: var(--font-primary);
   font-weight: 500 !important;
-  font-size: clamp(24px, 2.8vw, 30px) !important;
+  font-size: clamp(24px, 2.8vw, 36px) !important;
   line-height: 1.3 !important;
 }
 
